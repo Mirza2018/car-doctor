@@ -14,6 +14,8 @@ import Register from './Pages/Register/Register';
 import Booking from './Pages/Booking/Booking';
 import PrivetRoute from './Pages/PrivetRoute/PrivetRoute';
 
+import Services from './Pages/Home/Services/Services';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
         element: <Login></Login>
       },
       {
+        path: '/ourservices',
+        element: <Services></Services>
+      },
+      {
         path: '/register',
         element: <Register></Register>
       },
@@ -36,9 +42,9 @@ const router = createBrowserRouter([
         element: <PrivetRoute><Booking></Booking></PrivetRoute>
       },
       {
-        path: '/checkout/:id',
+        path: '/ourservices/checkout/:id',
         element: <PrivetRoute><Checkout></Checkout></PrivetRoute>,
-        loader: ({ params }) => fetch(`https://cars-doctor-server-fawn.vercel.app/checkout/${params.id}`)
+        loader: ({ params }) => fetch(`https://car-doctor-server-538k.onrender.com/checkout/${params.id}`)
       }
     ]
   }

@@ -21,13 +21,14 @@ const Nabber = () => {
 
         {
             user ? <>
+              <li><Link to='/ourservices'>Our Services</Link></li>
                 <li><Link to='/booking'>booking</Link></li>
                 <li><Link onClick={logOutHandle}>Logout</Link></li>
             </>
 
                 : <>
+                    <li><Link to='/ourservices'>Our Services</Link></li>
                     <li><Link to='/login'>Login</Link></li>
-                    <li><Link to='/register'>Register</Link></li>
                 </>
         }
 

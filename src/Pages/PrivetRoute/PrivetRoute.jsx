@@ -6,6 +6,7 @@ const PrivetRoute = ({ children }) => {
     const { user, loadding } = useContext(AuthContext)
     const location = useLocation()
     console.log(location);
+    
     if (loadding) {
         return <>
             <span className="loading loading-ring loading-xs"></span>

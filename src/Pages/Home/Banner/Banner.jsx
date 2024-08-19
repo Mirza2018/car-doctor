@@ -5,6 +5,7 @@ import img3 from "../../../assets/images/banner/3.jpg"
 import img4 from "../../../assets/images/banner/4.jpg"
 import img5 from "../../../assets/images/banner/5.jpg"
 import img6 from "../../../assets/images/banner/6.jpg"
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -18,8 +19,9 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
+                            
                         </div>
                     </div>
                 </div>
@@ -37,8 +39,8 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
                         </div>
                     </div>
                 </div>
@@ -56,8 +58,9 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        {/* <Link to={`/ourservices`}><button className="btn btn-primary">Book Now</button></Link> */}
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
                         </div>
                     </div>
                 </div>
@@ -76,8 +79,8 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
                         </div>
                     </div>
                 </div>
@@ -96,8 +99,8 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
                         </div>
                     </div>
                 </div>
@@ -115,8 +118,8 @@ const Banner = () => {
                         </h2>
                         <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                         <div>
-                            <button className="btn btn-primary mr-5">Discover More</button>
-                            <button className="btn btn-outline btn-secondary">Latest project</button>
+                        <Link to="/ourservices"> <button className="btn btn-primary mr-5"> Discover More</button></Link>
+                        <Link to="/ourservices"> <button className="btn btn-outline btn-secondary">Latest project</button></Link>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,8 @@ const Checkout = () => {
     const { user } = useContext(AuthContext)
     const { _id, title, img, price } = loadService;
 
+    
+
     const handleForm = (e) => {
         e.preventDefault()
         const name = e.target.name.value;
@@ -22,7 +24,7 @@ const Checkout = () => {
             price: due,
         }
         console.log(order);
-        fetch('https://cars-doctor-server-fawn.vercel.app/bookings', {
+        fetch('https://car-doctor-server-538k.onrender.com/bookings', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -68,7 +70,7 @@ const Checkout = () => {
                     <input type='text' value={'$' + price} name='due' className="input input-bordered" required />
                 </div>
                 <div className="form-control mt-6">
-                    <input className="btn btn-primary" type="submit" value="Confrim book" />
+                    <input className="btn btn-primary mb-10" type="submit" value="Confrim book" />
                 </div>
             </form>
 

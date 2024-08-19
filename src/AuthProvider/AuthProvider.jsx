@@ -17,7 +17,7 @@ const AuthProvider = ({ children }) => {
 
             if (currentUser && currentUser.email) {
                 const loggedUser = { email: currentUser.email };
-                fetch('https://cars-doctor-server-fawn.vercel.app/jwt', {
+                fetch('https://car-doctor-server-538k.onrender.com/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

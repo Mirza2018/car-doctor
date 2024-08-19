@@ -8,7 +8,7 @@ const Booking = () => {
     const [bookings, setBookings] = useState([])
     const navigate = useNavigate();
 
-    const url = `https://cars-doctor-server-fawn.vercel.app/bookings?email=${user?.email}`;
+    const url = `https://car-doctor-server-538k.onrender.com/bookings?email=${user?.email}`;
 
     useEffect(() => {
         fetch(url, {
@@ -33,7 +33,7 @@ const Booking = () => {
         const proceed = confirm("Are you sure to delete")
         if (proceed) {
             console.log(id);
-            fetch(`https://cars-doctor-server-fawn.vercel.app/delete/${id}`, {
+            fetch(`https://car-doctor-server-538k.onrender.com/delete/${id}`, {
                 method: "DELETE"
             })
                 .then(res => res.json())
@@ -51,7 +51,7 @@ const Booking = () => {
 
     const handleConfrimBooking = (id) => {
         console.log('lll');
-        fetch(`https://cars-doctor-server-fawn.vercel.app/bookings/${id}`, {
+        fetch(`https://car-doctor-server-538k.onrender.com/bookings/${id}`, {
             method: "PATCH",
             headers: {
                 "content-type": "application/json"

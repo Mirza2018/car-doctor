@@ -1,5 +1,6 @@
 import person from "../../../assets/images/about_us/person.jpg"
 import parts from "../../../assets/images/about_us/parts.jpg"
+import { Link } from "react-router-dom";
 const About = () => {
     return (
         <div>
@@ -14,7 +15,8 @@ const About = () => {
                         <h1 className="text-5xl font-bold">Box Office News!</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-warning">Get More Info</button>
+                        <Link to="/ourservices"><button className="btn btn-warning">Get More Info</button></Link>
+                        
                     </div>
                 </div>
             </div>
