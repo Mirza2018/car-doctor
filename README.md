@@ -91,7 +91,7 @@ ecommerce-app/
 #### **Login Page**
 
 ![Register Page](https://i.ibb.co/71rj87p/Screenshot-2024-08-21-203304.png) 
-#### **Order Page**
+#### **Register Page**
 
 ![Order History Page](https://i.ibb.co/xqK3312/Screenshot-2024-08-21-203714.png)
 
