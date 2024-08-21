@@ -24,7 +24,7 @@ const Checkout = () => {
             price: due,
         }
         console.log(order);
-        fetch('https://car-doctor-server-538k.onrender.com/bookings', {
+        fetch('https://car-doctor-server-mirza2018s-projects.vercel.app/bookings', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
