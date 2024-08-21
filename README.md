@@ -60,7 +60,7 @@ npm run dev
 ## **Project Structure**
 
 ```plaintext
-ecommerce-app/
+car-doctor/
 ├── public/
 ├── src/
 │   ├── assets/          # Images, icons, etc.
