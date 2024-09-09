@@ -88,10 +88,10 @@ car-doctor/
 
 #### **Register Page**
 
-![Order History Page](/public/r1.png) 
+![Order History Page](/public/r11.png) 
 #### **Login Page**
 
-![Register Page](/public/s1.png)  
+![Register Page](/public/s11.png)  
 
 #### **Booking Page**
 ![Login Page](/public/b1.png) 
