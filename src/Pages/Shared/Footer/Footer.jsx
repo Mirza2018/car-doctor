@@ -1,12 +1,12 @@
 
-import logo from '../../../assets/logo.svg'
+import logo from '/car.png'
 
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-black text-white">
   <aside>
-    <img src={logo} alt="" />
-    <p>Car Doctor<br/>Providing reliable tech since 1992</p>
+    <img width={300} src={logo} alt="" />
+    <p>Remix car<br/>Providing reliable tech since 1992</p>
   </aside> 
   <nav>
     <header className="footer-title">Services</header> 

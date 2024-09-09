@@ -9,7 +9,8 @@ const Services = () => {
   
 
     useEffect(() => {
-        fetch(`https://car-doctor-server-mirza2018s-projects.vercel.app/serviecs?sort=${asc ? 'asc' : 'dasc'}&search=${src}`)
+        // fetch(`https://car-doctor-server-mirza2018s-projects.vercel.app/serviecs?sort=${asc ? 'asc' : 'dasc'}&search=${src}`)
+        fetch(`services.json`)
             .then(res => res.json())
             .then(data => {
                 setServices(data);

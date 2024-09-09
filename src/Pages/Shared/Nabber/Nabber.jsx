@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '../../../assets/logo.svg'
+import logo from '/car.png'
 import { useContext } from "react";
 import { AuthContext } from "../../../AuthProvider/AuthProvider";
 
@@ -46,8 +46,8 @@ const Nabber = () => {
                         {nabItems}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl" to='/'>
-                    <img src={logo} alt="" />
+                <Link className=" normal-case text-xl" to='/'>
+                    <img width={100} src={logo} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

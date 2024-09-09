@@ -1,6 +1,6 @@
-# **Car Doctor Car servicing App**
+# **Remix Car servicing App**
 
-![Logo](https://i.ibb.co/ZdMjbKJ/Screenshot-2024-08-21-202917.png) 
+![Logo](/public/car.png) 
 
 
 
@@ -81,20 +81,20 @@ car-doctor/
 ## **Screenshots**
 
 #### **Running the App**
-![Home Page 1](https://i.ibb.co/ZdMjbKJ/Screenshot-2024-08-21-202917.png) 
-![Home Page 2](https://i.ibb.co/VxxwfGM/Screenshot-2024-08-21-202957.png) 
+![Home Page 1](/public/h1.png) 
+![Home Page 2](/public/h2.png) 
 #### **Shopping page**
-![Shopping page](https://i.ibb.co/qkdMM92/Screenshot-2024-08-21-203020.png) 
-#### **Register Page**
-![Login Page](https://i.ibb.co/sqpLPqS/Screenshot-2024-08-21-203317.png) 
+![Shopping page](/public/h3.png) 
 
+#### **Register Page**
+
+![Order History Page](/public/r1.png) 
 #### **Login Page**
 
-![Register Page](https://i.ibb.co/71rj87p/Screenshot-2024-08-21-203304.png) 
-#### **Register Page**
+![Register Page](/public/s1.png)  
 
-![Order History Page](https://i.ibb.co/xqK3312/Screenshot-2024-08-21-203714.png)
-
+#### **Booking Page**
+![Login Page](/public/b1.png) 
 
 ## **Contact**
 
